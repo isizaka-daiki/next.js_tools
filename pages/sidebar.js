@@ -22,8 +22,8 @@ export default function Sidebar() {
                         <Link href="/Ip_check">
                             <a className="Sidebar_CategoryTitle_link">YouTube検索ツール</a>
                         </Link>
-                        <Link href="/Ip_check">
-                            <a className="Sidebar_CategoryTitle_link">環境変数確認ツール</a>
+                        <Link href="/Enviorment_variable_check">
+                            <a className="Sidebar_CategoryTitle_link">環境変数解析ツール</a>
                         </Link>
                     </div>
                 </div>
@@ -36,8 +36,8 @@ export default function Sidebar() {
                         <Link href="/Charactor_count">
                             <a className="Sidebar_CategoryTitle_link">文字数カウントツール</a>
                         </Link>
-                        <Link href="/Ip_check">
-                            <a className="Sidebar_CategoryTitle_link">品詞分解ツール</a>
+                        <Link href="/Hinshi_bunkai">
+                            <a className="Sidebar_CategoryTitle_link">日本語品詞分解ツール</a>
                         </Link>
                         <Link href="/Ip_check">
                             <a className="Sidebar_CategoryTitle_link">URLエンコード・デコードツール</a>
