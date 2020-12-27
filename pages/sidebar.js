@@ -39,7 +39,7 @@ export default function Sidebar() {
                         <Link href="/Hinshi_bunkai">
                             <a className="Sidebar_CategoryTitle_link">日本語品詞分解ツール</a>
                         </Link>
-                        <Link href="/Ip_check">
+                        <Link href="/Url_encode_decode">
                             <a className="Sidebar_CategoryTitle_link">URLエンコード・デコードツール</a>
                         </Link>
                     </div>
