@@ -1,0 +1,114 @@
+import Image from 'next/image';
+
+const Photo = ({ image }) => {
+    return(
+        <>
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+            <Image src={"/mori_005.jpg"} width={1920} height={1281} />
+        </>
+    )
+}
+
+export default Photo;

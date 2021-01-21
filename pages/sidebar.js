@@ -25,6 +25,9 @@ export default function Sidebar() {
                         <Link href="/Enviorment_variable_check">
                             <a className="Sidebar_CategoryTitle_link">環境変数解析ツール</a>
                         </Link>
+                        <Link href="/Photo">
+                            <a className="Sidebar_CategoryTitle_link">SSG画像描画</a>
+                        </Link>
                     </div>
                 </div>
                 <div className="Sidebar_category">
