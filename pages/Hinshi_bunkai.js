@@ -43,6 +43,7 @@ const Hinshi_bunkai = () => {
 
     return(
         <div>
+            <h2>メンテナンス中です</h2>
             <p className="section_title">日本語品詞分解ツール</p>
             <p className="section_explain">入力した日本語の文章を品詞分解します。<br/>日本語の学習にお役立て下さい。</p>
             <form>

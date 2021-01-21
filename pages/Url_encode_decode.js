@@ -46,9 +46,7 @@ const Url_encode_decode = (props) => {
     })
 
     return(
-        <p>
-            a
-        </p>
+        <p>メンテナンス中です</p>
     )
 }
 
