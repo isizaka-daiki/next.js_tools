@@ -27,21 +27,20 @@ const Hinshi_bunkai = () => {
             if(text) {
                 const response = await axios.post(`/api/hinshi_bunkai`, {
                     params: {
-                      // ここにクエリパラメータを指定する
                       search_word: text
                     }
                 });
-                console.log("useEffectの中で処理しています", response);
+                // console.log("useEffectの中で処理しています", response);
                 setData(response);
                 const list_data = response.data.ResultSet.ma_result.word_list.word;
-                console.log("resのデータの中身です", response.data.ResultSet.ma_result.word_list.word);
+                // console.log("resのデータの中身です", response.data.ResultSet.ma_result.word_list.word);
                 if(word_list.length === 0) {
                     setWordList(word_list.concat(list_data));
-                    console.log("初期状態から変化有り", word_list);
+                    // console.log("初期状態から変化有り", word_list);
                 }
                 setWordList(list_data);
-                console.log("これはword_list", word_list);
-                console.log(word_list.length);
+                // console.log("これはword_list", word_list);
+                // console.log(word_list.length);
             }
         }
         f();
@@ -60,11 +59,9 @@ const Hinshi_bunkai = () => {
                     onChange={handleChange}
                 />
             </form>
-            {/* <button onClick={test}>test</button> */}
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="chown_down" style={{margin: "20px 0 15px 0"}}><path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/></svg>
 
                 <div className="result_box">
-                {/* word_list.length !== 0をword_list.lengthにするとエラーはなくなるが、表が表示されなくなる */}
                     {word_list.length && (word_list.map(item => (
                         <div className="result_container">
                             <div className="result_list word_surface">{item.surface}</div>
