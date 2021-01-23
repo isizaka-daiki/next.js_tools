@@ -25,7 +25,7 @@ const Hinshi_bunkai = () => {
         const f = async () => {
             const word = 'hogehoge';
             if(text) {
-                const response = await axios.post(`http://localhost:3000/api/hinshi_bunkai`, {
+                const response = await axios.post(`/api/hinshi_bunkai`, {
                     params: {
                       // ここにクエリパラメータを指定する
                       search_word: text
