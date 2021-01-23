@@ -33,17 +33,15 @@ const Hinshi_bunkai = () => {
                 });
                 console.log("useEffectの中で処理しています", response);
                 setData(response);
-                console.log("これを描画していきます", data);
-                console.log("これをmapで回します", response.data.ResultSet.ma_result.word_list);
-                // clearState();
-                // console.log("これは初期化したword_list", word_list);
-                console.log("resのデータの中身です", response.data.ResultSet.ma_result.word_list.word)
                 const list_data = response.data.ResultSet.ma_result.word_list.word;
+                console.log("resのデータの中身です", response.data.ResultSet.ma_result.word_list.word);
                 if(word_list.length === 0) {
                     setWordList(word_list.concat(list_data));
+                    console.log("初期状態から変化有り", word_list);
                 }
                 setWordList(list_data);
                 console.log("これはword_list", word_list);
+                console.log(word_list.length);
             }
         }
         f();
@@ -67,13 +65,13 @@ const Hinshi_bunkai = () => {
 
                 <div className="result_box">
                 {/* word_list.length !== 0をword_list.lengthにするとエラーはなくなるが、表が表示されなくなる */}
-                    {word_list.length !== 0 && word_list.map(item => (
+                    {word_list.length && (word_list.map(item => (
                         <div className="result_container">
                             <div className="result_list word_surface">{item.surface}</div>
                             <div className="result_list word_reading">{item.reading}</div>
                             <div className="result_list word_pos">{item.pos}</div>
                         </div>
-                    ))}
+                    )))}
                 </div>
             </div>
 
