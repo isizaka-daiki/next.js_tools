@@ -21,11 +21,10 @@ export default async(req, res) => {
 
 
     //＊＊＊＊＊＊＊＊＊＊＊品詞分解の取得＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
-    const url = "https://jlp.yahooapis.jp/MAService/V1/parse?appid=dj00aiZpPUZiUzdmZWx0aUt0YiZzPWNvbnN1bWVyc2VjcmV0Jng9NDY-&results=ma,uniq&uniq_filter=9%7C10&sentence=" + search_word;
-    console.log(url);
-    const encode_url = encodeURIComponent(url)
-    console.log(encode_url);
-    const s = await axios.get(encode_url, config)
+    const base_url = "https://jlp.yahooapis.jp/MAService/V1/parse?appid=dj00aiZpPUZiUzdmZWx0aUt0YiZzPWNvbnN1bWVyc2VjcmV0Jng9NDY-&results=ma,uniq&uniq_filter=9%7C10&sentence=";
+    const word = encodeURIComponent(search_word)
+    console.log(base_url + word);
+    const s = await axios.get(base_url + word, config)
                         .then(response => {
                             res.send(response.data)
                         });
