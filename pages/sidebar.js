@@ -16,17 +16,17 @@ export default function Sidebar() {
                         <p className="Sidebar_CategoryTitle_Text">Web</p>
                     </div>
                     <div className="Sidebar_CategoryTitle_link_container">
+                        <Link href="/Enviorment_variable_check">
+                            <a className="Sidebar_CategoryTitle_link">環境変数解析ツール</a>
+                        </Link>
+                        <Link href="/Photo">
+                            <a className="Sidebar_CategoryTitle_link">CDN画像描画</a>
+                        </Link>
                         <Link href="/Ip_check">
                             <a className="Sidebar_CategoryTitle_link">IPアドレス確認ツール</a>
                         </Link>
                         <Link href="/Ip_check">
                             <a className="Sidebar_CategoryTitle_link">YouTube検索ツール</a>
-                        </Link>
-                        <Link href="/Enviorment_variable_check">
-                            <a className="Sidebar_CategoryTitle_link">環境変数解析ツール</a>
-                        </Link>
-                        <Link href="/Photo">
-                            <a className="Sidebar_CategoryTitle_link">SSG画像描画</a>
                         </Link>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 const Hinshi_bunkai = () => {
 
-    const [text, setText] = useState('');
+    const [text, setText] = useState('ここにテキストを入力してみてください。');
     const [data, setData] = useState("")
     const [word_list, setWordList] = useState([]);
     const handleChange = e => {
