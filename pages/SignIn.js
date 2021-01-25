@@ -3,7 +3,7 @@
 // import firebase from '../utils/firebase';
 // import { AuthContext } from '../components/Auth';
 
-// const SignIn = () => {
+const SignIn = () => {
 //   const { currentUser } = useContext(AuthContext);
 
 //   useEffect(() => {
@@ -14,11 +14,11 @@
 //     const provider = new firebase.auth.GoogleAuthProvider();
 //     firebase.auth().signInWithRedirect(provider);
 //   }
-//   return (
-//      <div className="container">
-//       <button onClick={login}>googleでログインする</button>
-//      </div>
-//   )
-// }
+  return (
+     <div className="container">
+      {/* <button onClick={login}>googleでログインする</button> */}
+     </div>
+  )
+}
 
-// export default SignIn;
+export default SignIn;
