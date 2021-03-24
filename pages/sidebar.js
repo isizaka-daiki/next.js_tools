@@ -53,7 +53,7 @@ export default function Sidebar() {
                         <p className="Sidebar_CategoryTitle_Text">About</p>
                     </div>
                     <div className="Sidebar_CategoryTitle_link_container">
-                        <Link href="/Ip_check">
+                        <Link href="/">
                             <a className="Sidebar_CategoryTitle_link">このサイトについて</a>
                         </Link>
                     </div>

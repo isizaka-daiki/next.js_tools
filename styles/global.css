@@ -147,10 +147,16 @@ img {
   font-size: larger;
 }
 
-.word_reading {
-
+.text_heading {
+  border-left: 5px solid #000000;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 20px;
+  padding:0 0 0 10px;
 }
 
-.word_pos {
-
+.section_explain_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkcyan;
 }

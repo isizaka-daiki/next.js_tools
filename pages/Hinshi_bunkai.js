@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import { useAsyncTask, useAsyncRun, useAsyncTaskFetch } from 'react-hooks-async';
-import useSWR from 'swr';
 import axios from 'axios';
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
@@ -12,14 +10,6 @@ const Hinshi_bunkai = () => {
     const handleChange = e => {
         setText(e.target.value);
     }
-    // const initialState = {
-    //     word_list: ''
-    // };
-    // const [word_list, setWordList] = useState(initialState);
-    // const clearState = ( () => {
-    //     setWordList({word_list, ...initialState});
-    // })
-
 
     useEffect(() => {
         const f = async () => {
